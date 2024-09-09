@@ -1,0 +1,52 @@
+html {
+  font-family: "Source Sans Pro", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body {
+  max-width: 100%;
+}
+h1 {
+  color: #f04c25;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 600;
+}
+h2 {
+  font-size: 18px;
+  line-height: 20px;
+  color: #009cab;
+  font-weight: normal;
+}
+p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #111111;
+  font-weight: 300;
+  width: 960px;
+}
+figure {
+  margin: 0 20px 20px 0;
+}
+
+.site-navigation ul {
+  margin: 0;
+  padding: 0;
+}
+
+.site-navigation li {
+  list-style: none;
+}
+
+.site-navigation a {
+  display: inline-block;
+  min-width: 120px;
+  line-height: 2em;
+  padding: 0 1em;
+  border: 1px solid #009cab;
+  text-decoration: none;
+  color: #009cab;
+}
+
+.site-navigation a:hover {
+  background-color: #009cab;
+  color: white;
+}
